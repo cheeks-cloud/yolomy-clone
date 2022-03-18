@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.first{
+  background-image: url("./images/hero.jpg");
+  height: 700px;
+}
+.first h1{
+  position: relative;
+  top: 250px;
+  text-align: center;
+  color: white;
+}
+.first p{
+  margin-top: 300px;
+  text-align: center;
+  color: white;
+}
+.middle{
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.line-1{
+  height: 1px;
+  background: black;
+}
+.row{
+  margin-top: 20px;
+}
+.col-border:hover{
+  border: 1px solid black;
+
+}
+.size{
+  text-align: left;
+}
+.shirts{
+
+  text-align: left;
+}
+.money{
+  text-align: right;
+}
+.second{
+  background-image: url("./images/about.jpg");
+  color: white;
+}
+h3{
+  position: relative;
+  top: 40px;
+  text-align: center;
+  
+}
+.second p{
+  margin-top: 60px;
+}
+.third{
+  height: 80px;
+  background-color:rgb(51, 14, 14);
+  color: white;
+ 
+}
+.third img{
+  float: left;
+}
+.fifth{
+  background-color: rgb(27, 20, 20);
+  color: white;
+}
